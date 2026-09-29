@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+  }
+  
+  .page {
+    width: 100%;
+  }
+
+  .hero {
+    height: 445px;
+    display: flex;
+    align-items: center;
+    padding: 0 8%;
+    margin-top: 30px;
+  }
+  
+
+  .heroText {
+    width: 50%;
+    z-index: 2;
+  }
+  
+  .heroText h1 {
+    font-size: 58px;
+    line-height: 0.8;
+    margin-bottom: 40px;
+    font-style: italic;
+  }
+  
+  .heroText h1 span {
+    color: #b52b0c;
+  }
+  
+  .heroText h1 {
+    color: #444;
+  }
+  
+  .heroText p {
+    width: 450px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 32px;
+  }
+  
+  .heroText button {
+    background-color: white;
+    border: 1px solid #c43212;
+    color: #c43212;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .heroText button:hover {
+    background-color: #c43212;
+    color: white;
+  }
+  
+  
+  .heroImg {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .heroImg img {
+    width: 420px;
+    height: 500px;
+    object-fit: contain;
+    object-position: bottom;
+  }
+
+  .grayLine {
+    width: 100%;
+    height: 56px;
+    background-color: rgb(255, 236, 236);
+  }
+  
+
+  .categories {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 48px 8%;
+  }
+  
+  .category {
+    width: 215px;
+    height: 88px;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon {
+    font-size: 25px;
+    color: #c43212;
+    margin-bottom: 8px;
+  }
+  
+  .category h3 {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 16px;
+    color: #444;
+  }
+
+  .heroImg {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .heroImg img {
+    object-fit: contain;
+    object-position: bottom;
+  }
+
